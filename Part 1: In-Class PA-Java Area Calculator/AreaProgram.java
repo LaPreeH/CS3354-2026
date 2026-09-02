@@ -12,6 +12,13 @@ import java.util.Scanner;
  */
 
 public class AreaProgram {
+
+	/**
+     * The main method displays a menu and allows the user to
+     * calculate the area of different shapes based on their selection.
+     *
+     * @param args command-line arguments (not used)
+     */
 	public static void main(String[] args) {
 		Scanner shape = new Scanner(System.in);
 		int choice;
