@@ -35,6 +35,9 @@ public class AreaProgram {
 				double area = 0.5 * base * height;
 				System.out.println("The area of the triangle is: " + area);
 			}
+			if(choice != 1 && choice != 2 && choice != 3 && choice != 4){
+				System.out.println("Invalid choice. Please enter a number between 1 and 4.");
+			}
 		} while (choice != 4);
 
 		if(choice == 4){
