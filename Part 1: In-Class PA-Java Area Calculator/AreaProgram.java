@@ -1,5 +1,16 @@
 import java.util.Scanner;
 
+/**
+ * A program that calculates the area of different shapes.
+ * The user can choose to calculate the area of a square,
+ * circle, or triangle. The program continues running until
+ * the user chooses to exit.
+ *
+ * @author LaPree Habbit Jr.
+ * @version 1.0
+ * @since 09-02-2026
+ */
+
 public class AreaProgram {
 	public static void main(String[] args) {
 		Scanner shape = new Scanner(System.in);
