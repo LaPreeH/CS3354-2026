@@ -4,7 +4,7 @@ package edu.txst.constructors;
  * The Student class represents a student and stores
  * information such as name, major, and GPA.
  */
-public class Student {
+public class UpdatedStudent {
 
     // Instance variables store information for each Student object.
     private String firstName;
